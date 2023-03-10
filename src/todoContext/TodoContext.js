@@ -43,7 +43,7 @@ function TodoProvider (props) {
     saveTodos(newTodos)
   }
     return (
-        <TodoContext.Provider value={{error, loading, total, complete, search, setSearch, searchedTodos, completeTodos, deleteTodos}}>
+        <TodoContext.Provider value={{error, loading, totalTodos, completedTodos, search, setSearch, searchedTodos, completeTodos, deleteTodos}}>
             {props.children}
         </TodoContext.Provider>
     )
