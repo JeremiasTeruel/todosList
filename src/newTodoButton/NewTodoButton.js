@@ -1,12 +1,12 @@
 import React from "react";
 import './NewTodoButton.css'
 
-function NewTodoButton() {
-    const onClickButton = (msg) => {
-        alert(msg)
+function NewTodoButton(props) {
+    const onClickButton = () => {
+        props.setOpenModal(prevState => !prevState)
     }
     return(
-        <button className="NewTodoButton" onClick={() => onClickButton('Modal alerta de click')}>+</button>
+        <button className="NewTodoButton" onClick={(onClickButton)}>+</button>
     );
 }
 
