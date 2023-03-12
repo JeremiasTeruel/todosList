@@ -42,3 +42,10 @@
     transform: rotate(360deg);
   }
 }
+
+.primerTodo-p{
+  text-align: center;
+  font-family: 'Montserrat';
+  margin-top: 10px;
+  font-weight: bold;
+}
