@@ -16,7 +16,7 @@
     height: 64px;
     width: 64px;
     transform: rotate(0);
-    transition: .3s ease;
+    transition: .5s ease;
 }
 
 .NewTodoButton:hover{
